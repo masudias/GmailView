@@ -12,7 +12,7 @@ public class Utilities {
         dummy.add(3); // Just adding last element as expanded so that it looks like an email app
         dummy.add(2);
         dummy.add(2);
-        dummy.add(2);
+        dummy.add(3);
         dummy.add(2);
         dummy.add(1);
 
