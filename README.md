@@ -1,5 +1,5 @@
 # GmailView
-**A nearly accurate UI representation of the latest Gmail app when an email is being opened.**
+**A nearly accurate UI representation of the latest Gmail app when an email is being opened and pinch zoomed.**
 
 The target is to achieve the user interface of latest Gmail app email chain when a email is opened from inbox. The latest email in an email chain is expanded while the others which were sent previously are not expanded. If you apply pinch in zoom to the email which is expanded, the other emails are like scrolling up or down to provide the email enough room to expand. Hence I tried to achieve the behaviour using `RecyclerView` using multiple `ViewType`. 
 
