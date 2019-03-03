@@ -19,7 +19,7 @@
         android:layout_marginLeft="8dp"
         android:layout_toRightOf="@+id/icon_expand"
         android:maxLines="1"
-        android:text="The first line of the email when it is not expanded."
+        android:text="This email is not expanded"
         android:textSize="14sp" />
 
 </RelativeLayout>

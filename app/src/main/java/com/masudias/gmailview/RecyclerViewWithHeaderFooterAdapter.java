@@ -9,6 +9,8 @@ import android.webkit.WebView;
 
 import java.util.ArrayList;
 
+import static com.masudias.gmailview.MainActivity.DEMO_LIST_SIZE;
+
 public class RecyclerViewWithHeaderFooterAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private static final int HEADER_VIEW = 1;
@@ -112,7 +114,7 @@ public class RecyclerViewWithHeaderFooterAdapter extends RecyclerView.Adapter<Re
 
     @Override
     public int getItemCount() {
-        return 10; // Let us consider we have 10 elements. This can be replaced with email list size
+        return DEMO_LIST_SIZE; // Let us consider we have 6 elements. This can be replaced with email chain size
     }
 
     // Now define getItemViewType of your own.

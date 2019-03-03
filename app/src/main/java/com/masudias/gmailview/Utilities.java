@@ -14,10 +14,6 @@ public class Utilities {
         dummy.add(2);
         dummy.add(2);
         dummy.add(2);
-        dummy.add(3);
-        dummy.add(2);
-        dummy.add(2);
-        dummy.add(2);
         dummy.add(1);
 
         return dummy;

@@ -10,6 +10,8 @@ public class MainActivity extends AppCompatActivity implements ZoomListener {
     private RecyclerView mRecyclerView;
     private RecyclerViewWithHeaderFooterAdapter adapter;
 
+    public static int DEMO_LIST_SIZE = 6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +30,6 @@ public class MainActivity extends AppCompatActivity implements ZoomListener {
 
     @Override
     public void onZoomListener(int position) {
-        mRecyclerView.smoothScrollToPosition(position);
+        mRecyclerView.scrollToPosition(position);
     }
 }
