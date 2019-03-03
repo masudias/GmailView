@@ -3,6 +3,9 @@ package com.masudias.gmailview;
 import java.util.ArrayList;
 
 public class Utilities {
+
+    public static int DEMO_LIST_SIZE = 6;
+
     public static ArrayList<Integer> populatePositionsWithDummyData() {
         ArrayList<Integer> dummy = new ArrayList<>();
 

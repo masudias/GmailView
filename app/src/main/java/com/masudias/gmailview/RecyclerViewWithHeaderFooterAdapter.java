@@ -9,7 +9,7 @@ import android.webkit.WebView;
 
 import java.util.ArrayList;
 
-import static com.masudias.gmailview.MainActivity.DEMO_LIST_SIZE;
+import static com.masudias.gmailview.Utilities.DEMO_LIST_SIZE;
 
 public class RecyclerViewWithHeaderFooterAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
